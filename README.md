@@ -36,8 +36,8 @@ Create a `/random` endpoint that:
 ├── data/
 │ └── used_numbers.json # File storing previously returned numbers
 ├── requirements.txt
-└── README.md ``` 
-
+└── README.md 
+``` 
 ---
 
 ## 4 Tech Stack
