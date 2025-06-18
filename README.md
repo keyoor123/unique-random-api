@@ -28,7 +28,9 @@ Create a `/random` endpoint that:
 
 ## 3 Project Structure
 
-```unique-random-api/
+The project follows a clean, modular structure to separate concerns.
+```
+unique-random-api/
 ├── app/
 │ ├── main.py # API setup and routing
 │ ├── generator.py # Random number generation logic
@@ -46,3 +48,42 @@ Create a `/random` endpoint that:
 -  FastAPI
 -  Uvicorn (ASGI server)
 -  JSON file-based persistence
+
+---
+
+## 🚀 Setup and Installation
+
+### Prerequisites
+
+- Python 3.7 or higher installed
+- `pip` package manager
+
+### 1 Clone or Download the Repository
+
+If you're using Git
+```
+git clone https://github.com/yourusername/unique-random-api.git
+cd unique-random-api
+```
+
+### 2 Install Dependencies
+
+Install all required Python libraries
+```
+pip install -r requirements.txt
+```
+
+### 3 Run the Server
+
+Start the FastAPI server using Uvicorn
+
+```
+uvicorn app.main:app --reload
+```
+
+### 4 Access the API
+
+Visit the random number endpoint
+```
+http://127.0.0.1:8000/random
+```
