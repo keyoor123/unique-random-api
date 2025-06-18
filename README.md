@@ -28,7 +28,15 @@ Create a `/random` endpoint that:
 
 ## 3 Project Structure
 
-```text unique-random-api/ ├── app/ │ ├── main.py # API setup and routing │ ├── generator.py # Random number generation logic │ └── storage.py # JSON file read/write logic ├── data/ │ └── used_numbers.json # File storing previously returned numbers ├── requirements.txt ├── .gitignore └── README.md ``` 
+```unique-random-api/
+├── app/
+│ ├── main.py # API setup and routing
+│ ├── generator.py # Random number generation logic
+│ └── storage.py # JSON file read/write logic
+├── data/
+│ └── used_numbers.json # File storing previously returned numbers
+├── requirements.txt
+└── README.md ``` 
 
 ---
 
