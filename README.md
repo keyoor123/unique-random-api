@@ -88,6 +88,8 @@ Visit the random number endpoint
 http://127.0.0.1:8000/random
 ```
 
+---
+
 ## 6 Scalability Ideas
 
 - **Better Storage**: Upgrade from JSON to SQLite or Redis for handling large datasets.
