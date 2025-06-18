@@ -51,7 +51,7 @@ unique-random-api/
 
 ---
 
-## 🚀 Setup and Installation
+## 5 Setup and Installation
 
 ### Prerequisites
 
@@ -87,3 +87,10 @@ Visit the random number endpoint
 ```
 http://127.0.0.1:8000/random
 ```
+
+## 6 Scalability Ideas
+
+- **Better Storage**: Upgrade from JSON to SQLite or Redis for handling large datasets.
+- **Efficient Lookup**: Use sets or hash maps to keep lookup fast even with millions of entries.
+- **Sharding**: Split number ranges across services for distributed scalability.
+- **Monitoring**: Add `/health` or `/stats` endpoints and integrate logging for observability.
