@@ -62,7 +62,7 @@ unique-random-api/
 
 If you're using Git
 ```
-git clone https://github.com/yourusername/unique-random-api.git
+git clone https://github.com/keyoor123/unique-random-api.git
 cd unique-random-api
 ```
 
